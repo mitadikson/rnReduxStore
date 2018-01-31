@@ -2,10 +2,10 @@
  * Created by Mita on 30.1.2018..
  */
 import {StackNavigator} from 'react-navigation';
-import ListProductsPage from '../components/ListProducts';
-import SingleProductPage from '../components/SingleProducts';
-import Splash from "../components/Splash";
-import CommentsList from "../components/Comments";
+import ListProductsPage from '../components/ListProductsPage';
+import SingleProductPage from '../components/SingleProductsPage';
+import Splash from "../components/SplashPage";
+import CommentsList from "../components/CommentsPage";
 
 
 const RootNavigator = StackNavigator({
